@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carbonado landing page </title>
+    <style>
+     /*  css */
+     body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color:antiquewhite;
+     }
+     .header {
+            background-color: #1d1d1b;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+     }
+     .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fcf6f6;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #f6f3f3;
+            text-align: center;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            display:block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .description {
+            text-align: center;
+            margin: 20px 0;
+            color: #666;}
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: rgb(4, 0, 0);
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: rgb(7, 0, 0);
+        }
+        .footer {
+            background-color: #1d1d1b;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Carbanado</h1>
+    </div>
+    <div class="container"><img class="product-image" src="data:image/jpeg;base64,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" >
+       <b> <h2 class="description">Explore Our Collection of Stylish Bags!</h2> </b>
+        <p class="description">Discover the perfect blend of fashion and functionality with our exclusive range of bags. Whether you're looking for everyday versatility or a statement piece for special occasions, our collection caters to every style and need </p>
+        <a href="#" class="cta-button">Explore Bags</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Carbanado. All rights reserved.</p>
+    </div>
+
+    
+    
+</body>
+</html>
